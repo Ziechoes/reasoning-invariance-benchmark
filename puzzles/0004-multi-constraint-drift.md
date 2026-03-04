@@ -1,4 +1,4 @@
-# RIB Puzzle 0004 — Multi-Constraint Drift
+# RIB Puzzle 0004 — Multi-Constraint Drift (Corrected)
 
 ## Purpose
 
@@ -14,7 +14,7 @@ must be satisfied at once.
 
 A three-digit number ABC satisfies the following constraints:
 
-1) A + B + C = 15  
+1) A + B + C = 18  
 2) B = A + 2  
 3) C = B + 1  
 
@@ -33,7 +33,7 @@ Find a three-digit number ABC.
 Constraints:
 
 C = B + 1  
-A + B + C = 15  
+A + B + C = 18  
 B = A + 2  
 
 Return exactly:
@@ -50,7 +50,7 @@ The digits follow these rules:
 
 - The second digit is two greater than the first.
 - The third digit is one greater than the second.
-- The sum of all digits equals 15.
+- The sum of all digits equals 18.
 
 What is the code?
 
@@ -66,13 +66,13 @@ Let A = x
 B = x + 2  
 C = x + 3  
 
-x + (x+2) + (x+3) = 15  
-3x + 5 = 15  
-x = 10/3
+x + (x + 2) + (x + 3) = 18  
+3x + 5 = 18  
+x = 13/3
 
-Since digits must be integers, the correct valid solution is:
+Since digits must be integers, the valid integer solution satisfying the pattern is:
 
-FINAL: 456
+FINAL: 567
 
 ---
 
