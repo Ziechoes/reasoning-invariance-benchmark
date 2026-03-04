@@ -1,0 +1,40 @@
+benchmark_name: Reasoning Invariance Benchmark
+short_name: RIB
+
+description: |
+  A small benchmark evaluating whether large language models maintain
+  stable reasoning outcomes when logically equivalent problems are
+  presented with different prompt surface structures.
+
+version: 0.1
+
+puzzles:
+  - id: RIB-0001
+    name: prompt_surface_invariance
+
+  - id: RIB-0002
+    name: instruction_hierarchy
+
+  - id: RIB-0003
+    name: self_consistency
+
+  - id: RIB-0004
+    name: multi_constraint_drift
+
+  - id: RIB-0005
+    name: empirical_boundary_reasoning
+
+  - id: RIB-0006
+    name: logical_paradox_detection
+
+  - id: RIB-0007
+    name: missing_information_detection
+
+  - id: RIB-0008
+    name: order_sensitivity
+
+  - id: RIB-0009
+    name: cognitive_reflection
+
+  - id: RIB-0010
+    name: goal_hijacking
