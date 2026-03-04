@@ -86,3 +86,9 @@ Future work may include:
 • cross-model benchmarking
 • adversarial perturbation tests
 • architectural analysis of reasoning stability
+
+## Results
+
+Benchmark runs will be recorded in:
+
+results/benchmark-results.md
